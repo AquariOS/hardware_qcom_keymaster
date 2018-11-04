@@ -42,6 +42,8 @@ LOCAL_SHARED_LIBRARIES := \
         libhardware \
         libcutils
 
+LOCAL_HEADER_LIBRARIES := generated_kernel_headers
+
 LOCAL_ADDITIONAL_DEPENDENCIES := \
     $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr \
     $(LOCAL_PATH)/Android.mk
